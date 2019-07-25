@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_material_light">#ffffff</color>
+    <color name="blue1">#1B9DCE</color>
+    <color name="blue_light">#FF48BBE1</color>
+    <color name="blue2">#20B3E5</color>
+    <color name="grey1">#fdfafa</color>
+    <color name="grey2">#d1d1d1</color>
+    <color name="grey3">#ededed</color>
+    <color name="holo_light_primary">#ffffff</color>
+    <color name="background_holo_light">#e22020</color>
+    <color name="grey4">#FFAFAFAF</color>
+    <color name="grey5">#FF848484</color>
+    <color name="grey6">#FF575757</color>
+    <color name="orange">#F36C21</color>
+    <color name="orange_light">#C6F36C21</color>
+    <color name="orange_light1">#92F38243</color>
+    <color name="white">#ffffff</color>
+
+</resources>

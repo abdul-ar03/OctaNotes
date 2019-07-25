@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:gravity="right"
+        android:background="@drawable/border_alert">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Folder Name :"
+                android:id="@+id/folder_name_txt"
+                android:layout_weight=".43"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20dp" />
+
+            <com.ar.developments.octanotes.LinedEditView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/folder_name_edit"
+                android:layout_weight=".6"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="normal"
+                android:theme="@style/Animation.AppCompat.Dialog"
+                android:singleLine="true"
+                android:maxLength="16" />
+        </LinearLayout>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="Create"
+            android:id="@+id/folder_create_btn"
+            android:layout_marginRight="22dp"
+            android:textColor="@color/blue1"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="-7dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
